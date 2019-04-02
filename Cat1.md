@@ -9,3 +9,4 @@ For below character issue will occure
 
 `@#%^?<>/\\`
 
+To solve this problem put url encoded password while making url connection
