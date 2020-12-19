@@ -3,7 +3,7 @@ General Observations
 
 
 To read yaml file (application) into pojo do following
-
+```
 @Configurationproperties
 public class ConfigProp {
 
@@ -43,12 +43,12 @@ public class ConfigProp {
    name: tanmay
    
    
-   
+   ```
    ===============================================================================================================
    
    
    apart from application.yml other files can be map to pojo
-   
+   ```
    @Component
    @PropertySource("classpath:test-rule.yml")
    class Rules {
@@ -62,5 +62,5 @@ public class ConfigProp {
    
    id : 1
    name : naman
-   
+   ```
    ===================================================================================================================
