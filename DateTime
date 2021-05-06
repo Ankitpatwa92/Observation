@@ -1,0 +1,6 @@
+To get date time in 00:00:00.000 format
+
+localDate.ofTime(LocalTime.MIN).format(DateTimeFormat.ofPattern(H:mm:ss.SSS))
+
+H represents number between 0-23
+and hh represent number between 1-12
